@@ -111,34 +111,6 @@ Feature: Registro de actividades del campus
 
 
 #USER 12
-Feature: Recomendaciones personalizadas para usuarios individuales
-
-  Scenario: Recomendaciones personalizadas exitosas
-    Given el usuario ha registrado sus hábitos de transporte y energía
-    When hace clic en "Ver recomendaciones"
-    Then el sistema debe analizar los datos ingresados
-    And mostrar recomendaciones personalizadas para reducir la huella de carbono
-
-
-#USER 13
-Feature: Recomendaciones personalizadas para familias
-
-  Scenario: Recomendaciones personalizadas basadas en datos familiares
-    Given el usuario ha registrado los hábitos de transporte y consumo de energía familiar
-    When hace clic en "Ver recomendaciones"
-    Then el sistema debe mostrar sugerencias específicas para reducir la huella de carbono familiar
-
-
-#USER 14
-Feature: Recomendaciones para instituciones educativas
-
-  Scenario: Recomendaciones para la institución educativa
-    Given el representante ha registrado los hábitos de energía y transporte del campus
-    When hace clic en "Ver recomendaciones"
-    Then el sistema debe ofrecer sugerencias para optimizar el consumo energético y la gestión de residuos
-
-
-#USER 15
 Feature: Comparativas de huella de carbono
 
   Scenario: Comparativa de huella de carbono exitosa
@@ -147,7 +119,7 @@ Feature: Comparativas de huella de carbono
     Then el sistema debe mostrar una comparación gráfica de su huella de carbono
 
 
-#USER 16
+#USER 13
 Feature: Rankings de sostenibilidad
 
   Scenario: Visualización de ranking de sostenibilidad
@@ -157,7 +129,7 @@ Feature: Rankings de sostenibilidad
     And desglosar las áreas donde puede mejorar
 
 
-#USER 17
+#USER 14
 Feature: Acceso a recursos educativos
 
   Scenario: Acceso a recursos educativos
@@ -167,7 +139,7 @@ Feature: Acceso a recursos educativos
     And permitir al usuario seleccionar y visualizar el contenido de su interés
 
 
-#USER 18
+#USER 15
 Feature: Juegos y quizzes educativos
 
   Scenario: Participación en un quiz educativo
@@ -177,7 +149,7 @@ Feature: Juegos y quizzes educativos
     And proporcionar retroalimentación sobre las respuestas
 
 
-#USER 19
+#USER 16
 Feature: Integración con redes sociales
 
   Scenario: Compartir logros en redes sociales
@@ -186,7 +158,7 @@ Feature: Integración con redes sociales
     Then el sistema debe permitir publicar el logro en plataformas como Facebook, Twitter e Instagram
 
 
-#USER 20
+#USER 17
 Feature: Gamificación y logros
 
   Scenario: Ganar puntos y desbloquear logros
@@ -196,7 +168,7 @@ Feature: Gamificación y logros
     And desbloquear logros en función de su progreso    
 
 
-#USER 21
+#USER 18
 Feature: Notificaciones y recordatorios
 
   Scenario: Recibir notificaciones sobre el progreso
